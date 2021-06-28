@@ -4,7 +4,7 @@ Gropen.vim
 A Vim plugin for quickly opening local files and directories on remote git
 repositories.
 
-This plugin was thouhgt out to make it a breeze to share code
+This plugin was thought out to make it a breeze to share code
 from a codebase with your coworkers.
 
 ![Overview](./overview.gif)

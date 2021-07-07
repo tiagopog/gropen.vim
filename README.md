@@ -54,14 +54,15 @@ or
 Installation
 ------------
 
-You have to first install [gropen](https://github.com/tiagopog/gropen):
+### Requirements
 
-```shell
-$ pip install gropen
-```
+Make sure you have intalled on your system:
+
+1. Python >= 3.6
+2. Git
+3. [gropen](https://github.com/tiagopog/gropen)(`pip install gropen`)
 
 Then you can use any package manager for Vim of your choice and add Gropen.vim to your `.vimrc`:
-
 
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 

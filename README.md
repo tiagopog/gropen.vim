@@ -60,7 +60,7 @@ Make sure you have intalled on your system:
 
 1. Python >= 3.6
 2. Git
-3. [gropen](https://github.com/tiagopog/gropen)(`pip install gropen`)
+3. [gropen](https://github.com/tiagopog/gropen) (`pip install gropen`)
 
 Then you can use any package manager for Vim of your choice and add Gropen.vim to your `.vimrc`:
 

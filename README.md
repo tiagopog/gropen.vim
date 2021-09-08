@@ -9,11 +9,11 @@ This plugin was thought out to make it a breeze to share git-versioned code with
 
 ## Features
 
-| Feature                          | Keybindings                 | Command               |
-| -------------------------------- |:---------------------------:| :--------------------:|
-| Open current file in remote repo | <leader>g                   | :GropenFile()         |
-| Open current line in remote repo | <leader>gl                  | :GropenCurrentLine()  |
-| Open line range in remote repo   | visual mode + <leader>gr    | :GropenLineRange()    |
+| Feature                          | Keybindings                | Command              |
+| -------------------------------- |:--------------------------:| :-------------------:|
+| Open current file in remote repo | \<leader\>g                | :GropenFile()        |
+| Open current line in remote repo | \<leader\>gl               | :GropenCurrentLine() |
+| Open line range in remote repo   | visual mode + \<leader\>gr | :GropenLineRange()   |
 
 Installation
 ------------

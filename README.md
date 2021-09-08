@@ -1,55 +1,19 @@
 Gropen.vim
 =============
 
-A Vim plugin for quickly opening local files and directories on remote git
-repositories.
+A Vim plugin for quickly opening local files and directories in remote git repositories.
 
-This plugin was thought out to make it a breeze to share code
-from a codebase with your coworkers.
+This plugin was thought out to make it a breeze to share git-versioned code with your coworkers.
 
 ![Overview](./overview.gif)
 
-Usage
------
+## Features
 
-1) Open current file on your remote repository:
-
-```vim
-<leader>g
-```
-
-or
-
-```vim
-:GropenFile()
-```
-
-2) Open current line on your remote repository:
-
-```vim
-<leader>gl
-```
-
-or
-
-```vim
-:GropenCurrentLine()
-```
-
-3) Open a line range on your remote repository:
-
-Enter Vim's visual more, choose the portion of code you'd like
-to open on your remote repo, then:
-
-```vim
-<leader>gr
-```
-
-or
-
-```vim
-:GropenLineRange()
-```
+| Feature                          | Keybindings                 | Command               |
+| -------------------------------- |:---------------------------:| :--------------------:|
+| Open current file in remote repo | <leader>g                   | :GropenFile()         |
+| Open current line in remote repo | <leader>gl                  | :GropenCurrentLine()  |
+| Open line range in remote repo   | visual mode + <leader>gr    | :GropenLineRange()    |
 
 Installation
 ------------
